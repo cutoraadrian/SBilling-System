@@ -10,7 +10,7 @@
 
 
 }
-.darkmode {
+.darkmode
     .main {
         background-color: var(--darkmode-hue);
     }
