@@ -21,6 +21,11 @@
         color: var(--darkmode-text);
         font-weight: 400;
     }
+    .modal-body label {
+        .modal-body label[data-bs-toggle="modal"][data-bs-target="#staticBackdrop"] {
+            font-weight: bold;
+            color: #333;
+        }
     p {
         color: var(--label-text);
     }
