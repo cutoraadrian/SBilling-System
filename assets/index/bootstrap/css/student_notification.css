@@ -10,29 +10,30 @@
 
 
 }
-.darkmode
+.darkmode 
     .main {
         background-color: var(--darkmode-hue);
     }
     h1, h2, h3, h4, h5, h6 {
         color: var(--darkmode-text);
     }
-    .modal-body{
-        color: var(--darkmode-text);
-        font-weight: 400;                                         
-        
-    }
-    label {
-        color: var(--darkmode-text);
-        font-weight: 400;
-    }
     .modal-body label {
         .modal-body label[data-bs-toggle="modal"][data-bs-target="#staticBackdrop"] {
             font-weight: bold;
             color: #333;
         }
+        
+    label {
+        color: var(--darkmode-text);
+        font-weight: 400;
+    }
+    .modal-body{
+        color: var(--darkmode-text);
+        font-weight: 400;                                         
+        
+    }
     p {
-        color: var(--label-text);
+        color: var(--darkmode-text);
     }
     i {
         color: var(--darkmode-text);
@@ -57,6 +58,7 @@
         background-color: var(--darkmode-hue);
     }
 }
+
 .container {
     color: var(--elements-hue);
     transition: 1s ease;
@@ -182,6 +184,7 @@ li {
 .sidebar-logo {
     margin: auto 0;
 }
+
 
 #sidebar:not(.expand) .sidebar-logo, #sidebar:not(.expand) a.sidebar-link span
 {
